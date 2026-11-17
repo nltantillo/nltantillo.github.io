@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicholas Tantillo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&amp;family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&amp;display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script src="carousel.js" defer></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Global Header -->
+  <header class="site-header">
+    <nav class="nav-grid-secondary" aria-label="Main navigation">
+      <a href="index.html" class="active" aria-current="page">Nicholas Tantillo</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="information.html">Information</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content" tabindex="-1">
+    <h1 class="visually-hidden">Nicholas Tantillo</h1>
+    <!-- Introductory Row (3fr / 5fr / 4fr) -->
+    <section class="content-row">
+      <div class="col-meta">
+        <h2>Short bio</h2>
+        <small>Technical writer</small>
+        <small>Brooklyn, New York</small>
+      </div>
+      <div class="col-narrative">
+        <p>I'm a technical writer who breaks down complex topics into digestible content. At <a class="text-link" href="https://www.datadoghq.com/" target="_blank" rel="noopener">Datadog</a>, my writing focused on cloud observability and security. My work included the video series <a class="text-link" href="https://www.youtube.com/playlist?list=PLdh-RwQzDsaO9UJ1Ze44Li5DSa-3pgCR7" target="_blank" rel="noopener"><em>This Month in Datadog</em></a> and <a class="text-link" href="https://www.youtube.com/playlist?list=PLdh-RwQzDsaM9Sq_fi-yXuzhmE7nOlqLE" target="_blank" rel="noopener"><em>Tips &amp; Tricks</em></a> as well as <a class="text-link" href="https://www.youtube.com/playlist?list=PLdh-RwQzDsaPqmgohbJVS4RUU6AMVza_S" target="_blank" rel="noopener">product videos</a>, <a class="text-link" href="https://www.datadoghq.com/blog/" target="_blank" rel="noopener">blog posts</a>, and email newsletters.</p>
+        <p><a class="text-link" href="information.html">See full bio</a> →</p>
+      </div>
+      <div class="col-media">
+        <img src="assets/images/portrait.jpg" alt="Nicholas Tantillo portrait">
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Featured Work Row (3fr / 5fr / 4fr) -->
+    <section class="content-row">
+      <div class="col-meta">
+        <h2><em>This Month in Datadog</em></h2>
+        <small>Datadog video series</small>
+        <small>2023&ndash;2026</small>
+      </div>
+      <div class="col-narrative">
+        <p>Monthly video series about new Datadog products, features, and events. Special episodes feature guest conversations or focus on releases announced at events, including AWS re:Invent and Datadog DASH. 
+        <p><a class="text-link" href="portfolio.html#this-month-in-datadog">See more</a> →</p>
+      </div>
+      <div class="col-media">
+        <div class="image-carousel" data-image-carousel role="region" aria-roledescription="carousel" aria-label="This Month in Datadog screenshots" tabindex="0">
+          <div class="image-carousel__viewport">
+            <div class="image-carousel__slide">
+              <button type="button" class="image-carousel__image-button" data-carousel-toggle aria-label="Pause slideshow" aria-pressed="false">
+                <img src="assets/images/this-month-gallery/this-month-title.png" alt="This Month in Datadog title card on a blue-to-purple gradient" loading="lazy">
+              </button>
+            </div>
+            <div class="image-carousel__slide" hidden>
+              <button type="button" class="image-carousel__image-button" data-carousel-toggle aria-label="Pause slideshow" aria-pressed="false">
+                <img data-src="assets/images/this-month-gallery/bits-ai-security-analyst.png" alt="Bits AI Security Analyst investigating a security signal in Datadog Cloud SIEM" loading="lazy">
+              </button>
+            </div>
+            <div class="image-carousel__slide" hidden>
+              <button type="button" class="image-carousel__image-button" data-carousel-toggle aria-label="Pause slideshow" aria-pressed="false">
+                <img data-src="assets/images/this-month-gallery/host-map.png" alt="Datadog Host Map displaying infrastructure hosts and CPU usage" loading="lazy">
+              </button>
+            </div>
+            <div class="image-carousel__slide" hidden>
+              <button type="button" class="image-carousel__image-button" data-carousel-toggle aria-label="Pause slideshow" aria-pressed="false">
+                <img data-src="assets/images/this-month-gallery/datadog-experiments.png" alt="Datadog Experiments results page showing a positive difference in an A/B test" loading="lazy">
+              </button>
+            </div>
+            <div class="image-carousel__slide" hidden>
+              <button type="button" class="image-carousel__image-button" data-carousel-toggle aria-label="Pause slideshow" aria-pressed="false">
+                <img data-src="assets/images/this-month-gallery/governance-console.png" alt="Datadog Governance Console overview showing organization product usage and governance coverage" loading="lazy">
+              </button>
+            </div>
+          </div>
+          <div class="image-carousel__feedback" aria-hidden="true">
+            <svg class="image-carousel__pause-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#FFFFFF">
+              <rect x="5.5" y="3.5" width="4.75" height="17" rx="1.75" ry="1.75"/>
+              <rect x="13.75" y="3.5" width="4.75" height="17" rx="1.75" ry="1.75"/>
+            </svg>
+            <svg class="image-carousel__play-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#FFFFFF">
+              <path d="M7.5 4.65C7.5 3.82 8.42 3.32 9.12 3.77L19.45 10.62C20.08 11.04 20.08 11.96 19.45 12.38L9.12 19.23C8.42 19.68 7.5 19.18 7.5 18.35V4.65Z"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+    
+    <!-- Featured Work Row (3fr / 5fr / 4fr) -->
+    <section class="content-row">
+      <div class="col-meta">
+        <h2>Blog posts</h2>
+        <small>Datadog technical content</small>
+        <small>2024&ndash;2026</small>
+      </div>
+      <div class="col-narrative">
+        <p>Short blog posts published to accompany <em>This Month in Datadog</em> videos. Blog posts link to corresponding episodes and longer posts about the products, features, events, and reports in the videos.</p>
+        <p><a class="text-link" href="portfolio.html#datadog-blog-posts">See more</a> →</p>
+      </div>
+      <div class="col-media">
+        <a class="image-link" href="https://www.datadoghq.com/blog/" target="_blank" rel="noopener" aria-label="Visit the Datadog blog">
+          <img src="assets/images/month-in-datadog-hero.png" alt="This Month in Datadog hero graphic" loading="lazy">
+        </a>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Featured Work Row (3fr / 5fr / 4fr) -->
+    <section class="content-row">
+      <div class="col-meta">
+        <h2><em>Tips &amp; Tricks</em></h2>
+        <small>Datadog video series</small>
+        <small>2025&ndash;2026</small>
+      </div>
+      <div class="col-narrative">
+        <p>Video series showing Datadog users how to solve everyday, technical challenges. Topics include troubleshooting JMX metric collection issues and adding Software Catalog metadata at scale by using Terraform.</p>
+        <p><a class="text-link" href="portfolio.html#datadog-tips-tricks">See more</a> →</p>
+      </div>
+      <div class="col-media">
+        <div class="image-carousel" data-image-carousel role="region" aria-roledescription="carousel" aria-label="Datadog Tips and Tricks screenshots" tabindex="0">
+          <div class="image-carousel__viewport">
+            <div class="image-carousel__slide">
+              <button type="button" class="image-carousel__image-button" data-carousel-toggle aria-label="Pause slideshow" aria-pressed="false">
+                <img src="assets/images/tips-tricks-gallery/software-catalog-reference.png" alt="Terraform terminal and spreadsheet showing Software Catalog metadata updates" loading="lazy">
+              </button>
+            </div>
+            <div class="image-carousel__slide" hidden>
+              <button type="button" class="image-carousel__image-button" data-carousel-toggle aria-label="Pause slideshow" aria-pressed="false">
+                <img data-src="assets/images/tips-tricks-gallery/datadog-provider-configuration.png" alt="Terraform Datadog provider configuration with API key, app key, and site variables" loading="lazy">
+              </button>
+            </div>
+            <div class="image-carousel__slide" hidden>
+              <button type="button" class="image-carousel__image-button" data-carousel-toggle aria-label="Pause slideshow" aria-pressed="false">
+                <img data-src="assets/images/tips-tricks-gallery/jmx-bean-case-sensitive.png" alt="Text slide explaining that JMX bean names are case-sensitive" loading="lazy">
+              </button>
+            </div>
+            <div class="image-carousel__slide" hidden>
+              <button type="button" class="image-carousel__image-button" data-carousel-toggle aria-label="Pause slideshow" aria-pressed="false">
+                <img data-src="assets/images/tips-tricks-gallery/jvm-metrics.png" alt="Datadog JVM Metrics dashboard showing heap, non-heap, garbage collection, and thread metrics" loading="lazy">
+              </button>
+            </div>
+          </div>
+          <div class="image-carousel__feedback" aria-hidden="true">
+            <svg class="image-carousel__pause-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#FFFFFF">
+              <rect x="5.5" y="3.5" width="4.75" height="17" rx="1.75" ry="1.75"/>
+              <rect x="13.75" y="3.5" width="4.75" height="17" rx="1.75" ry="1.75"/>
+            </svg>
+            <svg class="image-carousel__play-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#FFFFFF">
+              <path d="M7.5 4.65C7.5 3.82 8.42 3.32 9.12 3.77L19.45 10.62C20.08 11.04 20.08 11.96 19.45 12.38L9.12 19.23C8.42 19.68 7.5 19.18 7.5 18.35V4.65Z"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Featured Work Row (3fr / 5fr / 4fr) -->
+    <section class="content-row">
+      <div class="col-meta">
+        <h2>Product overview videos</h2>
+        <small>Datadog videos</small>
+        <small>2023&ndash;2024</small>
+      </div>
+      <div class="col-narrative">
+        <p>Short videos covering user benefits and features of Datadog products, including Database Monitoring, Service Catalog, Real User Monitoring, Cloud Cost Management, and Cloud Security Management.</p> 
+        <p><a class="text-link" href="portfolio.html#datadog-product-videos">See more</a> →</p>
+      </div>
+      <div class="col-media">
+        <div class="image-carousel" data-image-carousel role="region" aria-roledescription="carousel" aria-label="Datadog Database Monitoring product overview screenshots" tabindex="0">
+          <div class="image-carousel__viewport">
+            <div class="image-carousel__slide">
+              <button type="button" class="image-carousel__image-button" data-carousel-toggle aria-label="Pause slideshow" aria-pressed="false">
+                <img src="assets/images/database-monitoring-gallery/application-bottlenecks.png" alt="Application bottlenecks often stem from database problems" loading="lazy">
+              </button>
+            </div>
+            <div class="image-carousel__slide" hidden>
+              <button type="button" class="image-carousel__image-button" data-carousel-toggle aria-label="Pause slideshow" aria-pressed="false">
+                <img data-src="assets/images/database-monitoring-gallery/database-monitoring-title.png" alt="Datadog Database Monitoring title card" loading="lazy">
+              </button>
+            </div>
+            <div class="image-carousel__slide" hidden>
+              <button type="button" class="image-carousel__image-button" data-carousel-toggle aria-label="Pause slideshow" aria-pressed="false">
+                <img data-src="assets/images/database-monitoring-gallery/database-monitoring-features.png" alt="Database Monitoring features including comprehensive monitoring, active connections, query metrics, explain plans, and APM integration" loading="lazy">
+              </button>
+            </div>
+            <div class="image-carousel__slide" hidden>
+              <button type="button" class="image-carousel__image-button" data-carousel-toggle aria-label="Pause slideshow" aria-pressed="false">
+                <img data-src="assets/images/database-monitoring-gallery/database-query-insights.png" alt="Database query insights showing active connections by host and average query duration" loading="lazy">
+              </button>
+            </div>
+            <div class="image-carousel__slide" hidden>
+              <button type="button" class="image-carousel__image-button" data-carousel-toggle aria-label="Pause slideshow" aria-pressed="false">
+                <img data-src="assets/images/database-monitoring-gallery/database-monitoring-dashboard.png" alt="Datadog Database Monitoring dashboard with database hosts, query metrics, resource usage, and connections" loading="lazy">
+              </button>
+            </div>
+          </div>
+          <div class="image-carousel__feedback" aria-hidden="true">
+            <svg class="image-carousel__pause-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#FFFFFF">
+              <rect x="5.5" y="3.5" width="4.75" height="17" rx="1.75" ry="1.75"/>
+              <rect x="13.75" y="3.5" width="4.75" height="17" rx="1.75" ry="1.75"/>
+            </svg>
+            <svg class="image-carousel__play-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#FFFFFF">
+              <path d="M7.5 4.65C7.5 3.82 8.42 3.32 9.12 3.77L19.45 10.62C20.08 11.04 20.08 11.96 19.45 12.38L9.12 19.23C8.42 19.68 7.5 19.18 7.5 18.35V4.65Z"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="footer-row">
+      <div></div>
+      <div>
+        <small>Hosted on GitHub Pages.</small>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
