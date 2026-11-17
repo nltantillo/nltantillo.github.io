@@ -207,6 +207,11 @@ hr {
   display: block;
 }
 
+.col-media .image-link img {
+  aspect-ratio: 1400 / 711;
+  object-fit: contain;
+}
+
 .youtube-embed {
   display: block;
   width: 100%;
