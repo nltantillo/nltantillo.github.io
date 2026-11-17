@@ -195,6 +195,10 @@ hr {
   gap: 0;
 }
 
+.col-media {
+  min-width: 0;
+}
+
 .col-media img {
   width: 100%;
   height: auto;
@@ -222,7 +226,6 @@ hr {
 .podcast-embed {
   display: block;
   width: 100%;
-  max-width: 640px;
   height: 160px;
   border: 0;
   border-radius: 12px;
